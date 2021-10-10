@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Gemunu+Libre:regular&display=swap&subset=cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Strait:regular&display=swap&subset=cyrillic-ext);
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+		 url('../fonts/Gilroy-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+		 url('../fonts/Gilroy-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	/* font-family: "Gilroy", sans-serif; */
+	line-height: 1;
+}
+/* ........Конец обнуления */
+
+h1{
+	font-family: "Gemunu Libre", sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.text_1 {
+	font-family: "Gemunu Libre", sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.text_1p {
+	color:#054505;
+	text-align: center;
+	text-decoration: line-through;
+	text-shadow: 3px 3px 10px #244452 ;
+	text-transform: capitalize;
+	line-height: 100%;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	text-indent: 10px;
+	white-space: normal;
+}
+
+.text_2 {
+	font-family: "Strait", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.text_2p {
+	color:rgb(96, 83, 212);
+	text-align: left;
+	text-decoration: overline;
+	text-shadow: -3px -3px 5px #0babf0 ;
+	text-transform: none;
+	line-height: 90%;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	text-indent: 5px;
+	white-space: nowrap;
+}
+
+.img_1 {
+}
+
+.text_3 {
+	font-family: "Gilroy", sans-serif;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.text_3p {
+	color:rgb(240, 134, 134);
+	text-align: right;
+	text-decoration: underline;
+	text-shadow: 5px -3px 5px #670ddd ;
+	text-transform: lowercase;
+	line-height: 120%;
+	letter-spacing: 10px;
+	word-spacing: 10px;
+	text-indent: 10px;
+	white-space: normal;
+}
+
+.img_2 {
+}
+
+.text_4 {
+	font-family: "Gilroy", sans-serif;
+	font-size: 45px;
+	font-style: bold;
+	font-weight: 900;
+}
+
+.text_4p {
+	color:rgb(15, 252, 7);
+	text-align: justify;
+	text-decoration: none;
+	text-shadow: -10px 3px 5px #13a4dd ;
+	text-transform: none;
+	line-height: 100%;
+	letter-spacing: -5px;
+	word-spacing: -5px;
+	text-indent: -10px;
+	white-space: normal;
+}
+
+.img_3 {
+}
